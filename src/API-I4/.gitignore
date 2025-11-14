@@ -1,0 +1,40 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Dependencias
+node_modules/
+
+# Builds / compilados
+dist/
+build/
+
+# Cobertura / reports
+coverage/
+.nyc_output/
+
+# Caches
+.eslintcache
+.cache/
+*.tsbuildinfo
+
+# Variables de entorno (mantén un .env.example sin secretos)
+.env
+.env.*.local
+
+# Docker (solo archivos de entorno; NO ignora tus .sql)
+docker/*.env
+*.env.docker
+
+# Archivos de editor / SO
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Temporales
+tmp/
+temp/

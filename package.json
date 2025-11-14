@@ -1,0 +1,66 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Veran que en la mayoria de carpetas se encuentran archivos tipo tsx con el nombre \"layout\"\r no se preocupen por eso, son archivos de relleno para que al subir las carpeta las detectara\r por lo que al momento de trabajar si desean las pueden renombrar o eliminar directamente si NO las necesitan\r la documentacion de la arquitectura de carpetas se encontrara en el drive en breve.",
+  "main": "app/page.tsx",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "next dev -p 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aleli-C/JobMatch---Taller-de-integracion-II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Aleli-C/JobMatch---Taller-de-integracion-II/issues"
+  },
+  "homepage": "https://github.com/Aleli-C/JobMatch---Taller-de-integracion-II#readme",
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@types/express": "^5.0.3",
+    "axios": "^1.12.2",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "framer-motion": "^12.23.24",
+    "gsap": "^3.13.0",
+    "jose": "^6.1.0",
+    "lucide-react": "^0.544.0",
+    "module-alias": "^2.2.3",
+    "mysql2": "^3.11.0",
+    "next": "^15.5.2",
+    "next-themes": "^0.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "socket.io": "^4.8.1",
+    "socket.io-client": "^4.8.1",
+    "tsc-alias": "^1.8.16",
+    "zod": "^4.1.5"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.14",
+    "@types/node": "^24.7.2",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "concurrently": "^9.2.1",
+    "nodemon": "^3.1.10",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.14",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "_moduleAliases": {
+    "@": "dist",
+    "@api": "dist/api"
+  }
+}
